@@ -1142,6 +1142,7 @@ td.away {
   letter-spacing: 0;
   line-height: 1.15;
   padding: 0 20px;
+  white-space: nowrap;
 }
 
 .section-heading:before {
