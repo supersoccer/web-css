@@ -2644,3 +2644,9 @@ a.btn.btn-primary.fb-login-button.fb_iframe_widget {
 .recent-post-item.row .col-md-8.col-md-pull-1 .text a h2:first-letter {
     text-transform: uppercase;
 }
+
+#registerFB a.btn {
+  width: 100%;
+}
+
+#registerFB {margin-top: 25px !important;padding-top: 10px;border-top: solid 1px #dedede;}
