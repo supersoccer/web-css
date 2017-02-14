@@ -13,6 +13,10 @@
   src: url('../fonts/HelveticaCE Bold.ttf');
 }
 @font-face {
+  font-family: 'Helvetica Pro Black';
+  src: url('../fonts/HelveticaPro Black.otf');
+}
+@font-face {
   font-family: 'Intrepid Bold';
   src: url('../fonts/Intrepid ExtraBold.otf');
 }
@@ -672,6 +676,10 @@ table.replay td {
   top: -10px;
   color: #f7ac54;
 }
+
+.section-heading.orange .see-all {
+  color: #fff !Important;
+}
 .section-watch-popular .section-heading a.see-all:hover {
   color: #000 !important;
 }
@@ -797,7 +805,7 @@ table.replay td {
 }
 
 .watch.right .info h2 {
-  font-family: "Helvetica Pro Black",Arial,sans-serif;
+  font-family: "Intrepid Bold";
   margin: 0 0 20px;
   text-align: center;
   color: #fff;
@@ -828,11 +836,11 @@ table.replay td {
 }
 
 .watch.right .featured-video h3 {
-  font-family: "Helvetica Pro Black",Arial,sans-serif;
-    font-size: 16px;
-    color: #292929;
-    line-height:0.9;
-    margin: 0;
+  font-family: "Helvetica Bold",Arial,sans-serif;
+  font-size: 24px;
+  color: #292929;
+  line-height: 1.2;
+  margin: 0;
 }
 
 .watch.right .featured-video time {
@@ -1159,6 +1167,7 @@ td.away {
   top: -5px;
   right: 0;
   color: #000;
+  text-transform: uppercase;
 }
 
 .section-heading .see-all:after {
@@ -1170,7 +1179,7 @@ td.away {
 }
 
 .section-heading.bottom-dash:after {
-  background-position: center;
+  background-position: center bottom .5em;
 }
 
 .section-heading.black h2 {
@@ -2272,6 +2281,10 @@ font-weight: 700;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 4px;
+    text-transform: lowercase !important;
+}
+.vs .program:first-letter {
+  text-transform: uppercase
 }
 .vs .program.left {
     padding-left: 20px;
@@ -2552,4 +2565,63 @@ a.btn.btn-primary.fb-login-button.fb_iframe_widget {
 .forgot-password{
   margin-top:10px;
   font-size:16px;
+}
+.watch-tab-nav {
+    border-width: 2px 10px 0 10px;
+    border-style: solid;
+    border-color: #f7ac54;
+    width: 100%;
+    background: #202020;
+}
+
+.watch-tab-nav span {
+    float: left;
+    width: 14.285%;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #aaa;
+    cursor: pointer;
+    font-family: "Helvetica Bold";
+}
+
+.days {
+    float: left;
+    width: 100%;
+}
+
+.watch-tab-nav span:hover {
+    background: #f7ac54;
+    color: #202020;
+}
+
+.watch-tab-content {
+    display: none;
+}
+
+.watch-tab-content.shown {
+    display: block;
+}
+.watch-tab-content .watch {
+    width: 100%;
+    top: 0 !important;
+}
+
+.watch-tab-nav:after {
+    content: '';
+    display: table;
+    width: 100%;
+}
+
+.watch-tab-section {
+    margin-top: -20px;
+}
+
+.featured-video div.media {
+    padding-bottom: 20px;
+    border-bottom: solid 1px #000;
+}
+
+.watch.right .media .media-left {
+    float: left;
 }
