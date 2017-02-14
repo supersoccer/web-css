@@ -827,12 +827,12 @@ table.replay td {
 
 .watch.right .featured-video .heading h2 {
   font-family: "Intrepid Bold";
-  font-size: 22px;
-  border-left: 7px solid #ea2d34;
-  padding: 0 10px;
-  color: #ea2d34;
-  line-height: 22px;
-  margin-bottom: 15px;
+    font-size: 22px;
+    border-left: 7px solid #ea2d34;
+    padding: 0 10px;
+    color: #ea2d34;
+    line-height:0.9;
+    margin-bottom: 15px;
 }
 
 .watch.right .featured-video h3 {
@@ -1370,6 +1370,7 @@ td.away {
   font-size: 13px;
   line-height: 1.62;
   margin: 0;
+  height: 40px;
 }
 
 .editorial-list .editorial-box .read-more {
@@ -2650,3 +2651,24 @@ a.btn.btn-primary.fb-login-button.fb_iframe_widget {
 }
 
 #registerFB {margin-top: 10px; padding-top: 20px; border-top: solid 1px #dedede;}
+
+.subscribe-list .col-lg-4 > a {
+    display: block;
+    padding: 0;
+}
+
+a.btn.btn-primary.facebook-btn {
+    width: 100%;
+    background: #365899;
+}
+
+a.btn.btn-primary.facebook-btn img {
+    height: 20px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a.btn.btn-primary.facebook-btn:hover {
+    background: #1f3663;
+}
