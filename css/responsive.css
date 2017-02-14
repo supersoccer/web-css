@@ -1,4 +1,4 @@
-@media (max-width:1900px){
+/*@media (max-width:1900px){
 	.container{
 		width:1600px;
 	}
@@ -18,6 +18,7 @@
 		width:1200px;
 	}
 }
+*/
 @media (max-width:1199px) {
   .subscribe-list {
     width: 90%;
