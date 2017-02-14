@@ -827,12 +827,12 @@ table.replay td {
 
 .watch.right .featured-video .heading h2 {
   font-family: "Intrepid Bold";
-    font-size: 22px;
-    border-left: 7px solid #ea2d34;
-    padding: 0 10px;
-    color: #ea2d34;
-    line-height:0.9;
-    margin-bottom: 15px;
+  font-size: 22px;
+  border-left: 7px solid #ea2d34;
+  padding: 0 10px;
+  color: #ea2d34;
+  line-height: 22px;
+  margin-bottom: 15px;
 }
 
 .watch.right .featured-video h3 {
@@ -2649,4 +2649,4 @@ a.btn.btn-primary.fb-login-button.fb_iframe_widget {
   width: 100%;
 }
 
-#registerFB {margin-top: 25px !important;padding-top: 10px;border-top: solid 1px #dedede;}
+#registerFB {margin-top: 10px; padding-top: 20px; border-top: solid 1px #dedede;}
