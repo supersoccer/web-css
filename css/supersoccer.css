@@ -1,8 +1,4 @@
-@font-face {
-  font-family: 'Helvetica Pro Black';
-  src: url('../fonts/HelveticaPro Black.otf');
-  font-weight: 800;
-}
+
 @font-face {
   font-family: 'Helvetica Roman';
   src: url('../fonts/HelveticaNeueLTStd-Roman.otf');
@@ -83,6 +79,10 @@ a:focus, a:hover {color:#ea2d34 !important;text-decoration: none;}
 .navigation a,.news-ticker .heading {
   font-stretch: normal;
   font-style: normal;
+}
+
+.navigation a.login-link {
+    color: #ffc000;
 }
 
 .news-list>div:after,.news-list>div:before {
@@ -677,7 +677,7 @@ table.replay td {
 }
 .section-watch-popular .section-heading.black h2 {
   color: #000;
-  width: 35%;
+  white-space: nowrap;
 }
 
 .section-watch-popular {
@@ -730,7 +730,7 @@ table.replay td {
   right: 0;
 }
 .whatson-box {
-    padding: 0px 32px 0px 20px;
+    padding: 0;
     margin-left: 4px;
 }
 .section-watch-popular figure:hover .caption {
@@ -809,6 +809,7 @@ table.replay td {
 
 .watch.right .info p {
   padding: 0 15px 15px;
+  line-height: 28px;
 }
 
 .watch.right .featured-video .heading {
@@ -1169,7 +1170,7 @@ td.away {
 }
 
 .section-heading.bottom-dash:after {
-  background-position: 0 2em;
+  background-position: center;
 }
 
 .section-heading.black h2 {
@@ -1221,7 +1222,6 @@ td.away {
 
 .columnist-box .body,.editorial-list .editorial-box .body {
   padding: 8px 10px;
-  min-height:250px;
 }
 
 .section-2:before {
@@ -1289,6 +1289,13 @@ td.away {
   color: #4c4c4c;
   line-height: 1.62;
   margin: 0;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
 }
 
 .editorial-list {
@@ -1400,14 +1407,14 @@ td.away {
 }
 .news-box {
     margin-top: 27px;
-    min-height:332px;
+    /* min-height:332px; */
 }
 .news-box h3 {
   -webkit-margin-after: 0;
   -webkit-margin-before: 0;
   color: #212121;
   font-family: "Novecentowide-Medium",Arial,sans-serif;
-    font-size: 20px;
+  font-size: 20px;
   font-stretch: normal;
   font-style: normal;
   font-weight: 700;
@@ -1415,10 +1422,17 @@ td.away {
   margin: 10px 0 0;
   text-align: left;
   text-transform: uppercase;
+  height: 50px;
 }
 
 .news-box h3 a {
   color: #212121;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .news-box .textarea,.news-box time {
@@ -1445,7 +1459,14 @@ td.away {
   font-size: 13px;
   line-height: 1.64;
   padding-bottom:20px;
-  min-height:200px;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+  height: 100px;
 }
 
 .ads-list>div {
@@ -2014,18 +2035,18 @@ input.searchbox {
 .writer .thumb {
     height: 150px;
     overflow: hidden;
-	border:3px solid #fff;
+  border:3px solid #fff;
     -webkit-box-shadow: 10px 10px 37px -5px rgba(0,0,0,0.2);
     -moz-box-shadow: 10px 10px 37px -5px rgba(0,0,0,0.2);
     box-shadow: 10px 10px 37px -5px rgba(0,0,0,0.2);
 }
 .writer h2{
-	color:#ea2d34;
-	font-family:"Intrepid Bold",Arial,sans-serif;
-	font-size:24px;
+  color:#ea2d34;
+  font-family:"Intrepid Bold",Arial,sans-serif;
+  font-size:24px;
 }
 .red{
-	color:#ea2d34;
+  color:#ea2d34;
 }
 
 .article-content img {
@@ -2039,22 +2060,22 @@ td.center {
 /*CUSTOM CSS and MOBILE FIX*/
 
 .fa{
-	font-family: 'Font Awesome';
+  font-family: 'Font Awesome';
     font-style: normal;
 }
 #mobile-menu{
-	display: none;
-	float: right;
-	margin: 8px 20px 8px 0;
-	background: linear-gradient(to top, #cccccc, #ffffff);
-	border: none;
-	border-radius: 0;
-	color: #bc0808;
-	padding: 8px 15px;
-	font-weight: 600;
+  display: none;
+  float: right;
+  margin: 8px 20px 8px 0;
+  background: linear-gradient(to top, #cccccc, #ffffff);
+  border: none;
+  border-radius: 0;
+  color: #bc0808;
+  padding: 8px 15px;
+  font-weight: 600;
 }
 #reg-form{
-	position: absolute;
+  position: absolute;
     top: 0;
     right: 0;
     z-index: 1;
@@ -2108,59 +2129,59 @@ input.btn.btn-primary.big:hover {
   padding:20px;
 }
 #reg-form form{
-	width: 410px;
-	float: right;
+  width: 410px;
+  float: right;
     margin: 18px 60px 0 0;
 }
 #reg-form form input{
-	margin-bottom: 10px;
+  margin-bottom: 10px;
     padding: 18px 15px;
-	font-size: 16px;
+  font-size: 16px;
     font-family: "Montserrat-Light",Arial,sans-serif;
     color: white;
-	background: #a20607;
+  background: #a20607;
     border-color: #7b0505;
     border-radius: 0;
     font-weight: 300;
 }
 input.btn.btn-primary.big{
-	font-family: "Code Pro Bold",Arial,sans-serif !important;
+  font-family: "Code Pro Bold",Arial,sans-serif !important;
 }
 #reg-form form button{
-	margin-bottom: 10px;
+  margin-bottom: 10px;
     padding: 15px;
-	font-size: 20px;
+  font-size: 20px;
     font-family: "Code Pro Bold",Arial,sans-serif;
     color: #eaeaea;
     border-radius: 0;
     font-weight: 400;
-	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 }
 #reg-form form button:nth-of-type(1){
-	/*background: linear-gradient(to top, #c69809,#f3b700);*/
+  /*background: linear-gradient(to top, #c69809,#f3b700);*/
   width:100%;
 }
 #reg-form form button:nth-of-type(2){
-	background: linear-gradient(to top, #254a98,#2e5cbd);
+  background: linear-gradient(to top, #254a98,#2e5cbd);
 }
 #reg-form form button i{
     margin-right: 3px;
 }
 #top-p{
-	font-size: 20px;
+  font-size: 20px;
     font-family: "Code Pro Bold",Arial,sans-serif;
     color: #eaeaea;
     font-weight: 500;
 }
 #bot-p{
-	font-size: 18px;
+  font-size: 18px;
     font-family: "Code Pro Bold",Arial,sans-serif;
     color: #eaeaea;
     font-weight: 300;
 }
 #bot-p a{
     font-weight: 500;
-	color: #ffc000;
+  color: #ffc000;
 }
 #reg-form form input::-webkit-input-placeholder{color:#eaeaea;}
 #reg-form form input::-moz-placeholder{color:#eaeaea;}/* Firefox 19+ */
@@ -2197,8 +2218,8 @@ section.result{
 .program h4 {
     font-family: 'Futura-Bold', Arial, Helvetica, sans-serif;
     font-size: 14px;
-    margin-top: 2px;
     text-align: left;
+    margin-left: 30px;
 }
 .program {
     font-weight: 700;
@@ -2269,6 +2290,7 @@ font-weight: 700;
 }
 .program.center h4{
   text-align:center;
+  margin-left: 0;
 }
 .program.center h4:after {
     margin: 5px auto 26px auto;
@@ -2277,14 +2299,14 @@ font-weight: 700;
     padding: 0px 8px;
 }
 .video {
-	    margin-top: -20px;
-	}
+      margin-top: -20px;
+  }
 .vs .program.right {
     padding-left: 0px;
-    padding-right: 5px;
+    padding-right: 20px;
     text-align: right;
     text-transform: initial;
-     font-size:12px;
+    font-size:12px;
 }
 
 .versus {
@@ -2304,8 +2326,13 @@ font-weight: 700;
 }
 .row.schedule-line {
     padding-bottom: 10px;
-    margin-bottom:10px;
-    border-bottom: 1px solid #ccc;
+}
+
+.vs .row.schedule-line a {
+  float: left;
+  width: 100%;
+  padding: 0 30px 10px 30px;
+  border-bottom: solid 1px #dedede;
 }
 
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
@@ -2396,7 +2423,7 @@ h4.tanggal {
     display: none;
 }
 .logo-pgw{
-	margin-top:30px;
+  margin-top:30px;
 }
 .logo-pgw img{
   height:100px;
@@ -2489,6 +2516,40 @@ a.btn.btn-primary.fb-login-button.fb_iframe_widget {
 }
 
 .forgot-password{
-	margin-top:10px;
-	font-size:16px;
+  margin-top:10px;
+  font-size:16px;
+}
+vertical-align: top;
+cursor: pointer;
+background-color: none;
+border: 0px solid 
+#ea2d34;
+border-radius: 3px;
+color: #333;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+div[data-toggle="buttons"] label:hover {
+color: #ea2d34;
+}
+
+div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+/* end of button custom*/
+
+
+a.btn.btn-primary.fb-login-button.fb_iframe_widget {
+    padding: 0px;
+    
+}
+
+.forgot-password{
+  margin-top:10px;
+  font-size:16px;
 }
