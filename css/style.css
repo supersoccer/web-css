@@ -1,0 +1,7 @@
+
+@media (min-width:661px) {
+	.jwplayer.jw-flag-aspect-mode {
+		width: 60%!important;
+		height: 450px!important;
+	}
+}
