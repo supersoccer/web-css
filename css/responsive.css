@@ -1,24 +1,3 @@
-/*@media (max-width:1900px){
-	.container{
-		width:1600px;
-	}
-}
-@media (max-width:1620px){
-	.container{
-		width:1400px;
-	}
-}
-@media (max-width:1400px){
-	.container{
-		width:1400px;
-	}
-}
-@media (max-width:1380px){
-	.container{
-		width:1200px;
-	}
-}
-*/
 @media (max-width:1199px) {
   	.subscribe-list {
 	    width: 90%;
@@ -323,24 +302,26 @@
 	    padding-right: 0px;
 	}
 }
-@media (min-width: 644px) and (max-width: 664px) {
-	.navigation a {	    
-	    font-size: 10px;
+@media (min-width: 661px) and (max-width: 664px) {
+	.navigation a {	  
+	  	font-size: 10px;
 	    text-decoration: initial;
 	    padding-right: 0px;
 	    display: block;
 	    float: left;
 	}
-	.navigation {	    
-		padding-top: 30px;
-	}
+}
+@media (min-width: 644px) and (max-width: 660px) {
+	.navigation a {	    
+	    font-size: 14px;
+	    text-decoration: initial;
+	}	
 }
 @media (max-width:643px) {
 	.navigation a {	    
 	    font-size: 14px;	    
 	    text-decoration: initial; 	    
 	}
-
 }
 
 
@@ -548,5 +529,118 @@
 	}
 	.contributor.section-4 .container {
 	    width: 658px;
+	}
+}
+@media (min-width: 431px) and (max-width: 660px){
+	.hero-editor .heading {
+	    display: block;
+	    width: 100%;
+	    margin-top: -30px;
+        height: 36px;
+        padding-top: 10px;
+    	padding-bottom: 45px;
+	}
+	.section-heading.vertical {
+	     -webkit-transform: none; 
+	     transform: none; 
+	}
+	.hero-editor .content-wrapper {
+	     top: 0px; 
+	     position: relative;
+	}
+	.hero-editor .content-wrapper .figure-container {
+	    display: block;
+	    position: relative;
+	    float: left;
+	    margin-bottom: 0px;
+	}
+	.hero-editor .content-wrapper .content {
+		min-height: 0px;
+	    height: auto;
+	    padding-bottom: 15px;
+	}
+	.hero-editor {
+	     height: auto;
+	}
+	.hero-editor .content-wrapper .main-figure {
+	    float: left;
+	    position: relative;
+	    left: 0px;
+	    top: 0px;
+	}
+	.section-4 {
+	    background-color: #fff;
+	}
+}
+@media (max-width: 430px){
+	.hero-editor .heading {
+	    display: block;
+	    width: 100%;
+	    margin-top: -30px;
+        height: 36px;
+        padding-top: 10px;
+    	padding-bottom: 45px;
+	}
+	.section-heading.vertical {
+	     -webkit-transform: none; 
+	     transform: none; 
+	}
+	.hero-editor .content-wrapper {
+	     top: 0px; 
+	     position: relative;
+	}
+	.hero-editor .content-wrapper .figure-container {
+	    display: block;
+	    position: relative;
+	    float: left;
+	    margin-bottom: 0px;
+	}
+	.hero-editor .content-wrapper .content {
+		min-height: 0px;
+	    height: auto;
+	    padding-bottom: 15px;
+	}
+	.hero-editor {
+	     height: auto;
+	}
+	.hero-editor .content-wrapper .main-figure {
+	    float: left;
+	    position: relative;
+	    left: 0px;
+	    top: 0px;
+	}
+	.section-4 {
+	    background-color: #fff;
+	}
+	.section-heading h2 {
+	    font-size: 20pt;
+	}
+	.section-heading:before {
+	    height: 14px;
+	}
+	.hero-editor .heading {
+	    padding-left: 0px;
+	}
+	.section-heading.vertical {	    
+	    margin-left: -15px;
+	}
+}
+@media (min-width:1200px) {
+	.col-lg-3 {
+	    min-height: 250px;
+	}
+}
+@media (min-width:992px) and (max-width:1199px) {
+	.col-lg-3 {
+	    min-height: 180px;
+	}
+}
+
+.news-list .news-box h3 {
+    height: auto;
+}
+@media (min-width:1108px) {
+	.contributor.section-4 {
+	    min-height: 610px;
 	}
 }

@@ -1,16 +1,19 @@
 @media (min-width: 1200px) {
 	.whatson-box {
 	    width: 100%;
-        padding-left: 13%;
-    	padding-right: 7%;
+        /*padding-left: 13%;
+    	padding-right: 7%;*/
 	}	
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 	.whatson-box {
         width: 100%;
-	    padding-left: 12%;
+	    padding-left: 8%;
 	    padding-right: 6%;
 	}	
+	.watch h3 {
+	    height: 25px;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	
@@ -20,6 +23,16 @@
         width: 100%;
 	    padding-left: 10%;
 	    padding-right: 10%;
+	}	
+}
+@media (max-width: 364px) {
+	.watch .program h4 {
+	    margin-left: 0px;
+	}
+	.whatson-box {
+        width: 100%;
+	    padding-left: 6%;
+    	padding-right: 1%;
 	}	
 }
 @media (max-width: 479px) {
