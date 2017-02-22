@@ -1,0 +1,26 @@
+@media (min-width: 303px) and (max-width: 355px) {
+	.heading.black {
+	    font-size: 24px;
+	}
+	.login-box .heading {	 
+	    font-size: 24px;
+	}
+}
+@media (max-width: 302px) {
+	.heading.black {
+	    font-size: 20px;
+	}
+	.login-box .heading {	 
+	    font-size: 20px;
+	}
+}
+@media (max-width: 991px) {
+	.reg{
+		padding-top: 30px;
+	}
+}
+
+.register-loginFB {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
