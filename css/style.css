@@ -114,3 +114,9 @@ li.nav-item.active {
 	    margin-bottom: -30px;
 	}
 }
+.slider.logged {
+    max-height: none;
+}
+.slider.logged .section {
+	height: auto;
+}
