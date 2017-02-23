@@ -124,8 +124,8 @@ li.nav-item.active {
 .slider.logged .section {
 	height:auto;
 }
-@media (max-width: 642px){
+@media (max-width: 660px){
 	.slider.logged .section.carousel-item.item.active {
 	    margin-top: 9px;
-	}
+	}	
 }
