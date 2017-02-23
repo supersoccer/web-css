@@ -44,7 +44,18 @@
   font-family:'Font Awesome';
   src:url('../fonts/fontawesome-webfont.woff');
 }
-
+@font-face{
+  font-family:'Gotham black';
+  src:url('../fonts/gotham-black.ttf');
+}
+@font-face{
+  font-family:'Gotham bold';
+  src:url('../fonts/gotham-bold.ttf');
+}
+@font-face{
+  font-family:'Gotham light';
+  src:url('../fonts/gotham-light.ttf');
+}
 .monserrat{
   font-family: 'Montserrat', sans-serif;
 }
@@ -1545,7 +1556,7 @@ article .article-content {
 }
 
 .subscribe-list .subscribe-box {
-  font-family: "Helvetica Roman",Arial,sans-serif;
+  font-family: "Helvetica Pro Black",Arial,sans-serif;
   border-radius: 6.7px;
   background-color: #fff;
   box-shadow: 0 10px 30px 0 rgba(166, 6, 6, 0.2);

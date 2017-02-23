@@ -117,6 +117,15 @@ li.nav-item.active {
 .slider.logged {
     max-height: none;
 }
+.slider.logged .jwplayer.jw-flag-aspect-mode {
+    width: 100%!important;
+    height: none!important;
+}
 .slider.logged .section {
-	height: auto;
+	height:auto;
+}
+@media (max-width: 642px){
+	.slider.logged .section.carousel-item.item.active {
+	    margin-top: 9px;
+	}
 }

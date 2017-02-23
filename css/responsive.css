@@ -753,7 +753,7 @@
     text-align: left;
     padding-left: 10%;    
     text-shadow: 0 5px 10px rgba(41,41,41,.3);
-    font-family: "Helvetica Pro Black",Arial,sans-serif;
+    font-family: "Gotham black","Helvetica Pro Black",Arial,sans-serif;
     font-weight: bold;
     padding-top: 5px;
 }
@@ -837,4 +837,25 @@
 	    width: 100%;
 	    padding: 20px;
 	}
+}
+@media (min-width: 1200px) and (max-width: 1267px) {
+	.plans .subscribe-list .subscribe-box .heading {
+	    font-size: 16px;
+	}
+}
+@media (max-width: 360px) {
+	.plans .subscribe-list .subscribe-box .heading {
+	    font-size: 16px;
+	}
+}
+.subscribe-list .subscribe-box .heading,
+.subscribe-list .subscribe-box .qaulity,
+.subscribe-list .subscribe-box .year,
+.subscribe-list .subscribe-box .cost,
+.subscribe-list .subscribe-box .price,
+.subscribe-list .subscribe-box .month,
+.subscribe-list .subscribe-box .content,
+.subscribe-list .subscribe-box .price-unit,
+.subscribe-list .subscribe-box {
+  font-family: "Gotham black";
 }
