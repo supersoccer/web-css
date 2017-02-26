@@ -62,3 +62,19 @@
 	    margin-top: -50px;
 	}
 }
+.editorial-list .body {
+	min-height: 255px;
+}
+.col-lg-3 {
+	padding-bottom: 25px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.editorial-list .editorial-box .body {
+	    min-height: 220px;
+	}
+}
+@media (min-width: 768px) and (max-width: 820px) {
+	.editorial-list .editorial-box .body {
+	    min-height: 240px;
+	}
+}

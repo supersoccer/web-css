@@ -16,7 +16,7 @@ li.nav-item{
 .nav-tabs a {
     color: #ffffff;
     font-family: 'Futura-Bold', Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 1.1;
 }
 
@@ -43,12 +43,15 @@ li.nav-item.active {
 }
 @media (min-width: 1200px) {
     .nav-tabs .nav-link {
-		padding: 10px 20px;
+		padding: 10px 5px;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px){
 	.nav-tabs .nav-link {
-		padding: 10px 50px;
+		padding: 10px 5px;
+	}
+	.nav-tabs a {	 
+	    font-size: 11px;
 	}
 }
 @media (min-width: 821px) and (max-width: 991px){
@@ -128,4 +131,91 @@ li.nav-item.active {
 	.slider.logged .section.carousel-item.item.active {
 	    margin-top: 9px;
 	}	
+}
+@media (max-width: 991px){
+	.replays .feature-box .body .table-responsive,
+	.this-week .feature-box .body .table-responsive {
+	    padding-left: 15%;
+	    padding-right: 15%;
+	}
+}
+@media (min-width:768px) and (max-width: 991px){
+	.col-sm-4 {
+	    width: 100%;
+    	padding-bottom: 30px;
+	}
+}
+@media (max-width: 767px) {
+	.table-responsive {
+	    margin-bottom: 0px;
+    }
+	.col-lg-4.col-md-4.col-sm-4.this-week.margin-bottom-60 {
+		padding-top: 30px;
+	}
+}	
+@media (min-width: 480px) and (max-width: 660px){
+	.replays .feature-box .body .table-responsive,
+	.this-week .feature-box .body .table-responsive {
+	    padding-left: 5%;
+	    padding-right: 5%;
+	}
+}
+@media (max-width: 479px){
+	.replays .feature-box .body .table-responsive,
+	.this-week .feature-box .body .table-responsive {
+	    padding-left: 0%;
+	    padding-right: 0%; 
+	}
+}
+.whatson .col-xs-3.col-md-3.time {
+	text-align:right;
+}
+
+.col-md-10 {
+    text-align: left;
+    font-size: 12px;
+}
+.this-week .col-xs-2.col-md-2.time {
+
+}
+@media (min-width: 1200px) {
+	.col-md-10 {
+	    margin-top: 5px;
+	}
+	.this-week .col-xs-2.col-md-2.time {
+		top: 5px;
+	}
+}
+@media (min-width: 821px) and (max-width: 1199px){
+	.col-md-10 {
+	    margin-top: 6px;
+	}
+	.this-week .col-xs-2.col-md-2.time {
+		top: 5px;
+	}
+}
+@media (max-width: 820px){
+
+	.col-md-10 {
+	    margin-top: 4px;
+	}
+	.this-week .col-xs-2.col-md-2.time {
+		top: 4px;
+	}
+	.row.schedule-line div {
+	    padding-bottom: 0px;
+	}
+}
+.col-xs-3.col-md-3.time,
+.col-xs-2.col-md-2.time {
+	font-size: 12px;
+}
+@media (max-width: 660px){
+	.subscribe-list .subscribe-box {
+		min-height: none;
+	}
+}
+.plans .subscribe-list .subscribe-box.tier1 .price
+{
+	padding-top: 8px;
 }

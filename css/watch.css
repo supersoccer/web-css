@@ -8,8 +8,8 @@
 @media (min-width: 992px) and (max-width: 1199px) {
 	.whatson-box {
         width: 100%;
-	    padding-left: 8%;
-	    padding-right: 6%;
+	    padding-left: 0%;
+	    padding-right: 2%;
 	}	
 	.watch h3 {
 	    height: 25px;
@@ -133,5 +133,15 @@
 @media (max-width: 360px){	
 	.columnist-box {
 	    margin-bottom: 15px;
+	}
+}
+@media (min-width: 768px) and (max-width: 820px){	
+	.col-lg-4.col-md-4.col-sm-4.whatson {
+		padding-bottom: 0px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){	
+	.col-lg-4.col-md-4.col-sm-4.this-week.margin-bottom-60 {
+		padding-bottom: 0px;
 	}
 }

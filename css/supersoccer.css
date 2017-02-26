@@ -1556,17 +1556,17 @@ article .article-content {
 }
 
 .subscribe-list .subscribe-box {
-  font-family: "Helvetica Pro Black",Arial,sans-serif;
+  font-family: "Gotham light";
   border-radius: 6.7px;
   background-color: #fff;
-  box-shadow: 0 10px 30px 0 rgba(166, 6, 6, 0.2);
+  box-shadow: 0 10px 30px 0 rgba(20, 0, 0, 0.9);
   text-align: center;
   color: #000;
   overflow: hidden;
   font-size: 12px;
   line-height: 1.56;
   margin-bottom:20px;
-  min-height:332px;
+  min-height:432px;
 }
 .other-plan {
     text-align: center;
@@ -2078,11 +2078,12 @@ td.center {
   margin-top:10px;
 }
 #reg-form div#loginFB{
-  text-align:center;
-  background:#f7ac54;
-  color:#000;
-  padding:20px;
-  margin-bottom:20px;
+    text-align: center;
+    /*background: #464646;*/
+    color: #fff;
+    padding: 10px;
+    padding-top: 5px;
+    border-radius: 10px;
 }
 #reg-form div#loginFB h4 {
     text-align: center;
@@ -2100,11 +2101,6 @@ td.center {
     line-height: 1.56;
     min-height: 418px;
     
-}
-input.btn.btn-primary.big:hover {
-    color: white;
-    background: #ea2d34 !important;
-    width: 100%;
 }
 .login-box .heading {
     font-family:"Helvetica Pro Black",Arial,sans-serif;
@@ -2124,14 +2120,13 @@ input.btn.btn-primary.big:hover {
     margin: 18px 60px 0 0;
 }
 #reg-form form input{
-  margin-bottom: 10px;
+    margin-bottom: 10px;
     padding: 18px 15px;
-  font-size: 16px;
+    font-size: 16px;
     font-family: "Montserrat-Light",Arial,sans-serif;
     color: white;
-  background: #a20607;
     border-color: #7b0505;
-    border-radius: 0;
+    border-radius: 5px;
     font-weight: 300;
 }
 input.btn.btn-primary.big{
@@ -2336,11 +2331,6 @@ font-weight: 700;
     font-family: "Helvetica Pro Black",Arial,sans-serif;
 }
 
-input.btn.btn-primary.big {
-    color: white;
-    background: black !important;
-    width: 100%;
-}
 
 .heading.black{
   background:#000;
@@ -2540,4 +2530,55 @@ a.btn.btn-primary.fb-login-button.fb_iframe_widget {
 .forgot-password{
   margin-top:10px;
   font-size:16px;
+}
+input[type=text], input[type=password] {
+    background-color: #faffbd;
+    border-radius: 8px;
+}
+#reg-form form .form-control{
+    color: #292929;
+}
+#reg-form form .form-control::-webkit-input-placeholder {
+  color: #9c9c9c !important;
+}
+ 
+#reg-form form .form-control:-moz-placeholder { /* Firefox 18- */
+  color: #9c9c9c !important;  
+}
+ 
+#reg-form form .form-control::-moz-placeholder {  /* Firefox 19+ */
+  color: #9c9c9c !important;  
+}
+ 
+#reg-form form .form-control:-ms-input-placeholder {  
+  color: #9c9c9c !important;  
+}
+input.btn.btn-primary.big {
+    color: white;
+    width: 100%;
+    border-radius: 10px!important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#45484d), to(#000000));
+   background-image: -webkit-linear-gradient(top, #45484d, #000000);
+   background-image: -moz-linear-gradient(top, #45484d, #000000);
+   background-image: -ms-linear-gradient(top, #45484d, #000000);
+   background-image: -o-linear-gradient(top, #45484d, #000000);
+
+  }
+
+input.btn.btn-primary.big:hover,
+input.btn.btn-primary.big:focus,
+input.btn.btn-primary.big:active {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2d2f32), to(#1a1a1a));
+   background-image: -webkit-linear-gradient(top, #2d2f32, #1a1a1a);
+   background-image: -moz-linear-gradient(top, #2d2f32, #1a1a1a);
+   background-image: -ms-linear-gradient(top, #2d2f32, #1a1a1a);
+   background-image: -o-linear-gradient(top, #2d2f32, #1a1a1a);
+}
+@media (max-width: 360px){
+  .subscribe-list .subscribe-box {
+      font-size: 11px;
+  }
+  .subscribe-list h2 {
+      font-size: 24px;
+  }
 }

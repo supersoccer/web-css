@@ -742,12 +742,16 @@
 }
 .plans .subscribe-list .subscribe-box .price {
     color: #101010;
-    font-size: 25px;
+    font-size: 25px;   
     font-weight: bold;
+    padding-top: 8px;
 }
 .plans .quality {
-    height: 40px;
+    height: auto;
     padding-top: 15px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
 }
 .plans .year, .plans .cost {
     text-align: left;
@@ -848,14 +852,17 @@
 	    font-size: 16px;
 	}
 }
+
 .subscribe-list .subscribe-box .heading,
-.subscribe-list .subscribe-box .qaulity,
 .subscribe-list .subscribe-box .year,
 .subscribe-list .subscribe-box .cost,
 .subscribe-list .subscribe-box .price,
 .subscribe-list .subscribe-box .month,
 .subscribe-list .subscribe-box .content,
 .subscribe-list .subscribe-box .price-unit,
-.subscribe-list .subscribe-box {
-  font-family: "Gotham black";
+.subscribe-list .subscribe-box .btn  {
+  	font-family: "Gotham black";
+}
+.subscribe-list .subscribe-box .qaulity {
+	font-family: "Gotham light";
 }
