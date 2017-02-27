@@ -838,11 +838,12 @@ table.replay td {
 }
 
 .watch.right .featured-video h3 {
-  font-family: "Helvetica Pro Black",Arial,sans-serif;
+    font-family: "Helvetica Pro Black",Arial,sans-serif;
     font-size: 16px;
     color: #292929;
     line-height:0.9;
     margin: 0;
+    height: 25px;
 }
 
 .watch.right .featured-video time {
@@ -1566,7 +1567,7 @@ article .article-content {
   font-size: 12px;
   line-height: 1.56;
   margin-bottom:20px;
-  min-height:432px;
+  min-height:510px;
 }
 .other-plan {
     text-align: center;
@@ -1608,7 +1609,7 @@ article .article-content {
 
 .subscribe-list .subscribe-box hr {
   max-width: 80%;
-  margin: 5px auto;
+  margin: 7px auto;
 }
 
 .subscribe-list .subscribe-box .btn {
@@ -2581,4 +2582,8 @@ input.btn.btn-primary.big:active {
   .subscribe-list h2 {
       font-size: 24px;
   }
+}
+.subscribe-list .subscribe-box .quality hr {
+    max-width: 100%;
+    margin: 10px auto;
 }

@@ -106,23 +106,12 @@
 	    background-size: cover;
 	}	
 }
-@media (min-width: 1201px){	
-	.columnist-box.columnist-box.vod .play {	 
-	    padding-top: 52%;
-	}
-}
-@media (min-width: 768px) and (max-width: 1200px) {	
-	.columnist-box.columnist-box.vod .play {	 
-	    padding-top: 50%;	 
-	}
-}
+
+
 @media (max-width: 767px){	
 	.columnist-box figure {
 	    height: auto;
 	    background-size: cover;
-	}
-	.columnist-box.columnist-box.vod .play {	 
-	    padding-top: 53%;	 
 	}
 }
 @media (min-width: 361px){	
@@ -144,4 +133,19 @@
 	.col-lg-4.col-md-4.col-sm-4.this-week.margin-bottom-60 {
 		padding-bottom: 0px;
 	}
+}
+@media (min-width:1200px) {
+	.columnist-box figure {
+	    height: 151.25px;
+	}
+}
+.section-watch-library .columnist-box .play {
+	position: relative;
+}
+.section-watch-library .columnist-box .play .bottom {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding-right: 20px;
 }

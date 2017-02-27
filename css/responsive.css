@@ -748,9 +748,9 @@
 }
 .plans .quality {
     height: auto;
-    padding-top: 15px;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15px;
     text-align: center;
 }
 .plans .year, .plans .cost {
